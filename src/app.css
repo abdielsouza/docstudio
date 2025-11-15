@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@layer theme {
+    .dark-mode-bg {
+        @apply bg-neutral-800;
+    }
+
+    .dark-mode-card {
+        @apply bg-neutral-700;
+    }
+
+    .dark-mode-link {
+        @apply text-white hover:shadow-sm hover:shadow-indigo-600 hover:transition-shadow;
+    }
+
+    .dark-mode-text {
+        @apply text-white;
+    }
+}
